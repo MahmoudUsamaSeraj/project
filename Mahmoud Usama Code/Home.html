@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="home.css">
+</head>
+<body class="">
+    
+    <section id="header">
+        <a href="#"><img src="imgs/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contacts.html">Contact Us</a></li>
+                <li><div class="icon-cart"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span id="count">0</span></div></li>
+            </ul>
+        </div>
+    </section><div class="container">
+    <section id="hero">
+        <h4>Welcome To My Project</h4>
+        <h2>My Products Will Appe<span>ar Soon</span> </h2>
+        <h1>Choose Wisely</h1>
+        <p>Save More With Coupouns Up To 50%</p>
+        <button>Shop Now</button>
+    </section>
+    <section id="banner" class="section-m1">
+        <h4>Repair Services</h4>
+        <h2>Up To <span>50% Off</span> - All Clothes</h2>
+        <button class="normal1">Explore More</button>
+    </section>
+    <section class="section">
+        <div class="slider">
+            <div class="sliders">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+
+            <div class="slide first">
+                <img src="imgs/1.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="imgs/2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="imgs/3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="imgs/4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="imgs/5.jpg" alt="">
+            </div>
+
+            <div class="auto">
+                <div class="btn1"></div>
+                <div class="btn2"></div>
+                <div class="btn3"></div>
+                <div class="btn4"></div>
+                <div class="btn5"></div>
+            </div>
+            </div> 
+            <div class="manual">
+                <label for="radio1" class="btnManual"></label>
+                <label for="radio2" class="btnManual"></label>
+                <label for="radio3" class="btnManual"></label>
+                <label for="radio4" class="btnManual"></label>
+                <label for="radio5" class="btnManual"></label>
+            </div> 
+        </div>
+    </section>
+   
+    <section id="product1" class="section-p1">
+        <h2>Our Products</h2>
+        <p>Collection Of New Modern Designs</p>
+        
+        <div class="wrapper">
+            <div id="buttons">
+                <button onclick="initApp()" class="button-value">All</button>
+                <button onclick="filterByCat('Shirt')" class="button-value">Shirts</button>
+                <button onclick="filterByCat('Blouse')" class="button-value">Blouse</button>
+                <button onclick="filterByCat('Hoodie')" class="button-value">Hoodie</button>
+                <button onclick="filterByCat('Jacket')" class="button-value">Jackets</button>
+                <button onclick="filterByCat('Pants')" class="button-value" >Pants</button>
+                <button onclick="filterByCat('Shorts')" class="button-value">Shorts</button>
+                <button onclick="filterByCat('T-Shirt')" class="button-value">T-Shirts</button>
+    </div>
+            </div>
+            <div id="myList" class="listProduct">
+            <div class="item">
+                <img src="imgs/imgs/f1.jpg" alt="">
+                <span>Adidas</span>
+                <h5 class="des">Shirt</h5>
+                    <h4 class="des">150L.E</h4>
+                    <button class="addCart">Add To Cart</button>
+                
+            </div>
+        </div>
+        <div class="cartTab">
+            <h1>Shopping Cart</h1>
+            <div class="listCart">
+                <div class="item">
+                    <div class="image">
+                        <img src="imgs/imgs/f1.jpg" alt="">
+                    </div>
+                    <div class="name">Name</div>
+                    <div class="totalPrice">150L.E</div>
+                    <div class="quantity">
+                        <span class="minus"><</span>
+                        <span>1</span>
+                        <span class="plus">></span>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <button class="close">CLOSE</button>
+                <button class="checkOut">Check Out</button>
+            </div>
+        </div>
+   
+    </section>
+    
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+           <h4>Sgin Up For Newsletter</h4>
+           <p>Get E-mail Updates About Our Latest Shop And <span>Special Offers</span> . </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal1">Sign Up</button>
+        </div>
+    </section> </div>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="imgs/logo.png" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>  Saqr Qurish-New Maadi , Cairo</p>
+            <p><strong>Phone:</strong> 01112003568</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa fa-facebook-f"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-pinterest-p"></i>
+                    <i class="fa fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="About.html">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="Contacts.html">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">View Cart</a>
+            <button id="scrollToTopLink" onclick="scrollToTop()"><i  class="fa fa-arrow-up"></i></button>
+                
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store Or Google Play</p>
+            <div class="row">
+                <img src="imgs/app.jpg" alt="">
+                <img src="imgs/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="imgs/pay.png" alt="">
+        </div>
+    </footer>
+    <script src="home.js"></script>
+</body>
+</html>

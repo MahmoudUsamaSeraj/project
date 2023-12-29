@@ -1,0 +1,176 @@
+[
+    {
+        "id": "1",
+        "image": "imgs/imgs/f1.jpg",
+        "name" :"Shirt",
+        "price":"150"
+    },
+    {
+        "id": "2",
+        "image": "imgs/imgs/f2.jpg",
+        "name" :"Shirt",
+        "price":"150"
+    },
+    {
+        "id": "3",
+        "image": "imgs/imgs/f3.jpg",
+        "name" :"Shirt",
+        "price":"150"
+    },
+    {
+        "id": "4",
+        "image": "imgs/imgs/f4.jpg",
+        "name" :"Shirt",
+        "price":"150"
+    },
+    {
+        "id": "5",
+        "image": "imgs/imgs/f5.jpg",
+        "name" :"Shirt",
+        "price":"150"
+    },
+    {
+        "id": "6",
+        "image": "imgs/imgs/b1.jpg",
+        "name" :"Blouse",
+        "price":"180"
+    },
+    {
+        "id": "7",
+        "image": "imgs/imgs/b2.jpg",
+        "name" :"Blouse",
+        "price":"180"
+    },
+    {
+        "id": "8",
+        "image": "imgs/imgs/b3.jpg",
+        "name" :"Blouse",
+        "price":"180"
+    },
+    {
+        "id": "9",
+        "image": "imgs/imgs/h1.jpg",
+        "name" :"Hoodie",
+        "price":"220"
+    },
+    {
+        "id": "10",
+        "image": "imgs/imgs/h2.jpg",
+        "name" :"Hoodie",
+        "price":"220"
+    },
+    {
+        "id": "11",
+        "image": "imgs/imgs/h3.jpg",
+        "name" :"Hoodie",
+        "price":"220"
+    },
+    {
+        "id": "12",
+        "image": "imgs/imgs/j1.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "13",
+        "image": "imgs/imgs/j2.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "14",
+        "image": "imgs/imgs/j3.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "15",
+        "image": "imgs/imgs/j4.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "16",
+        "image": "imgs/imgs/j5.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "17",
+        "image": "imgs/imgs/j6.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "18",
+        "image": "imgs/imgs/j7.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "19",
+        "image": "imgs/imgs/j8.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "20",
+        "image": "imgs/imgs/j9.jpg",
+        "name" :"Jacket",
+        "price":"300"
+    },
+    {
+        "id": "21",
+        "image": "imgs/imgs/p1.jpg",
+        "name" :"Pants",
+        "price":"260"
+    },
+    {
+        "id": "22",
+        "image": "imgs/imgs/p2.jpg",
+        "name" :"Pants",
+        "price":"260"
+    },
+    {
+        "id": "23",
+        "image": "imgs/imgs/p3.jpg",
+        "name" :"Pants",
+        "price":"260"
+    },
+    {
+        "id": "24",
+        "image": "imgs/imgs/s1.jpg",
+        "name" :"Shorts",
+        "price":"200"
+    },
+    {
+        "id": "25",
+        "image": "imgs/imgs/s2.jpg",
+        "name" :"Shorts",
+        "price":"200"
+    },
+    {
+        "id": "26",
+        "image": "imgs/imgs/s3.jpg",
+        "name" :"Shorts",
+        "price":"200"
+    },
+    {
+        "id": "27",
+        "image": "imgs/imgs/t1.jpg",
+        "name" :"T-Shirt",
+        "price":"120"
+    },
+    {
+        "id": "28",
+        "image": "imgs/imgs/t2.jpg",
+        "name" :"T-Shirt",
+        "price":"120"
+    },
+    {
+        "id": "29",
+        "image": "imgs/imgs/t3.jpg",
+        "name" :"T-Shirt",
+        "price":"120"
+    }
+]
